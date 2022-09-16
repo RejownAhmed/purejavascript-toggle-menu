@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .child-nav {
+            border-radius: 5px 5px 5px 5px;
+            margin: 0 auto;
+            height: 0px;
+            overflow: hidden;
+            -moz-transition-duration: 0.3s;
+            -webkit-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -moz-transition-timing-function: ease-in;
+            -webkit-transition-timing-function: ease-in;
+            -o-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+        }
+    </style>
+    <ul id="main-nav">
+        <li class="hasSubmenu close">
+          <a href="#" class="menuItem"><div> Main Menu One</div></a>
+          <ul class="child-nav">
+            <li>
+              <a href="#" class="py-3"> Sub Menu One</a>
+            </li>
+            <li>
+              <a href="#" class="py-3"> Sub Menu Three</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    
+<script src="./script.js"></script>
+
+</body>
+
+</html>
