@@ -16,3 +16,27 @@ function menuOpenClose(e){
         return //Must Return 
     };
 }
+
+//Another Way Of Doing This
+// let subMenu = el.querySelector("ul");
+// let getHeight = subMenu.style.height;
+// console.dir(getHeight);
+// if (getHeight == '0px' || !getHeight.length) {
+//     subMenu.style.height = `${subMenu.scrollHeight}px`;
+//     el.classList.remove("close");
+//     el.classList.add("open");
+// } else{
+//     subMenu.style.height = `0px`;
+//     el.classList.remove("open");
+//     el.classList.add("close");
+// }
+// this.hasSubmenu.forEach( e => {
+//     if (e != el) {
+//         //console.log(e);
+//         e.classList.remove("open");
+//         e.classList.add("close");
+//         let otherSubmenu = e.querySelector("ul");
+//         otherSubmenu.style.height = `0px`;
+//     }
+    
+// });
